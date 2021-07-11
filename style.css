@@ -1,0 +1,120 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body {
+    min-height: 100%;
+    /* background: var(--white); */
+    /* color: var(--text-color); */
+    /* font-family: var(--standard-font), sans-serif; */
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: 'Roboto', sans-serif;
+  }
+
+.container-fluid{
+    padding: 0px;
+}
+  .first {
+    /* height:100vh; */
+    min-height:400px;
+    background-size:cover;
+    background-image:url('images/hero-image.png');
+    background-position: top center;
+  }
+  
+  .scrolled-nav {
+    background-color: #000;
+    -webkit-transition:padding 0.2s ease-out;
+    -moz-transition:padding 0.2s ease-out;  
+    -o-transition:padding 0.2s ease-out;         
+    transition:padding 0.2s ease-out;
+  }
+  
+  nav .navbar-nav .nav-link,
+  nav .navbar-brand {
+     color: #fff;
+  }
+  
+  /* section {
+    height:calc(90% - 50px);
+    height: 90vh;
+  } */
+
+.header-text {
+    font-size: 7rem !important;
+    color: #fff;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
+
+#location-image {
+  /* background-image: url("images/pool.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px; */
+  color:#fff;
+}
+
+.hook {
+    padding: 10rem;
+    text-shadow: 5px 5px 10px #000000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+.invite {
+    padding: 5em;
+}
+
+.image-section {
+    padding:2em !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .header-text {
+        font-size: 6rem !important;
+        color: #fff;
+    }
+    .hook {
+        padding: 5rem;
+    }
+    .invite {
+        padding: 2em;
+    }
+
+  }
+
+  .navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: black;
+    border-radius: .25rem;
+}
+
+.fa-arrow-right {
+    color: #000;
+}
+
+highlight-text {
+  font-weight: 800;
+}
+
+.fa-circle {
+  color:#fff;
+}
+
+.fa-stack {
+  width: 2em !important;
+}
+
+.btn-secondary {
+  border-radius:50px !important;
+}
