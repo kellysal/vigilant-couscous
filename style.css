@@ -122,4 +122,13 @@ highlight-text {
   border-radius:50px !important;
   background-color: #989898 !important;
   border-color: #989898 !important;
+  font-weight: 600 !important;
+}
+
+p {
+  font-weight: 600;
+}
+
+special {
+  border-bottom: 5px solid #FF10F0;
 }
