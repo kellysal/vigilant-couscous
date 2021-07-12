@@ -22,9 +22,9 @@ html {
 }
   .first {
     /* height:100vh; */
-    min-height:400px;
+    min-height:700px;
     background-size:cover;
-    background-image:url('images/hero-image.png');
+    background-image:url('images/hero-image.jpg');
     background-position: top center;
   }
   
@@ -82,10 +82,13 @@ html {
         color: #fff;
     }
     .hook {
-        padding: 5rem;
+        padding: 8rem;
     }
     .invite {
         padding: 2em;
+    }
+    .first {
+      min-height:200px;
     }
 
   }
@@ -117,4 +120,6 @@ highlight-text {
 
 .btn-secondary {
   border-radius:50px !important;
+  background-color: #989898 !important;
+  border-color: #989898 !important;
 }
